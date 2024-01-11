@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 12px;
+}
+
+div {
+    border: 2px solid black;
+    color: red;
+    width: 80vw;
+    background-color: aqua;
+    margin: auto;
+    /* height: 5vh; */
+}
+.contain{
+    background-color: bisque;
+    /* height: 80vh; */
+     font-size: 20px; 
+     min-height: 80vh;
+}
+.contain p{
+    font-size: 2rem;
+}
