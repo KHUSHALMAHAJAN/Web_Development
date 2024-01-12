@@ -1,0 +1,7 @@
+div{
+    width: 70vw;
+    height:20vh;
+    border: 2px solid red;
+    /* overflow: hidden; */
+    overflow: scroll;
+}
