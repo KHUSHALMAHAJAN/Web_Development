@@ -1,0 +1,18 @@
+.main{
+    border: 2px solid;
+    padding: 10px;
+}
+.main *{
+    border: 2px solid red;
+    padding: 10px;
+}
+.box1{
+    /* display?: inline-block; */
+    /* display: flex; */
+    /* float: left; */
+    float: right;
+}
+.box2{
+    clear: left;
+    clear: both;
+}
