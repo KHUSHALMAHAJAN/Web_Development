@@ -1,0 +1,21 @@
+@media only screen and (max-width: 455px){
+    body{
+        background-color: blue;
+    }
+    
+}
+.box{
+    display: flex;
+}
+.box1{
+    background-color: aliceblue;
+    padding: 30px;
+}
+.box2{
+    background-color: antiquewhite;
+    padding: 40px;
+}
+.box3{
+    background-color: aqua;
+    padding: 30px;
+}
