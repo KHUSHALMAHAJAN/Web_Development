@@ -1,0 +1,35 @@
+:root{
+    --list1: red;
+    --list2: blue;
+    --list3: green;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+.list{
+    display: flex;
+    list-style: none;
+    margin: 10px;
+}
+.frist{
+    color:var(--list1);
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.second{
+    color: var(--list2);
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.third{
+    color: var(--list3);
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
