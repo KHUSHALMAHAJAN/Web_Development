@@ -1,0 +1,10 @@
+.main::before{
+    content: "i am a befor display";
+}
+.main::after{
+    content: "i am a after display";
+}
+::selection{
+    color: aquamarine;
+    background-color: blueviolet;
+}
