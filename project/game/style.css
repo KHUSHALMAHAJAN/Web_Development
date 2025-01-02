@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#plat{
+    height: 90%;
+    width: 90%;
+    background-color: rgb(102, 146, 41);
+    border-radius: 1%;
+    overflow: hidden;
+}
+#platu{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(119, 244, 10);
+    height: 12%;
+
+}
+.box{
+    background-color: rgb(248, 216, 5);
+    display: flex;
+    border-radius: 5px;
+    /* overflow: hidden; */
+    /* gap: 60%; */
+    /* margin-right: 20px; */
+}
+.box h4{
+    margin-left: 10px;
+    font-size: 100%;
+    font-weight: 100px;
+    color: rgb(8, 69, 250);
+    margin-right: 20px;
+}
+.num{
+    background-color: white;
+    padding: 2px 5px;
+    border-radius: 5px;
+}
+#plath{
+    width: 100%;
+    height: calc(100% - 12%);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.ball{
+    height: 40px;
+    width: 40px;
+    background-color: rgb(251, 248, 248);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ball:hover{
+    background-color: rgb(191, 244, 175);
+}
